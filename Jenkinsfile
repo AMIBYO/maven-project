@@ -36,7 +36,7 @@ node{
                           bat 'mvn validate'
                         }
             
-                        }
+                        
  }
       
      
