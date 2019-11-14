@@ -77,12 +77,12 @@
     <snapshotRepository>
       <id>nexus-snapshots</id>
 	  <layout>default</layout>
-      <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
 	  <layout>default</layout>
-      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+      <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
