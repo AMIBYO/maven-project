@@ -35,8 +35,11 @@ node{
                           echo 'phase d_intallation de pachake dans votre RL '
                           bat 'mvn validate'
                         }
-            
-                        
+               stage('phase de deploiement d_un artefact dans le referentiel distant') 
+                          { 
+                          echo 'phase de déploiement d_un artefact dans le référentiel distant'
+                          bat 'mvn deploy'
+                        }
  }
       
      
